@@ -1,8 +1,9 @@
 @import "colors";
 
 .home {
-  height: 100vh;
+  height: 60vh;
   overflow-x: hidden;
+  margin-top: -6rem;
 
   div {
     padding-left: 8rem;
@@ -14,6 +15,7 @@
 
     > p {
       font-size: 1.2rem;
+      margin-top: 1rem;
     }
   }
 

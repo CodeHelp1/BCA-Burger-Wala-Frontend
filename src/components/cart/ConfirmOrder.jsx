@@ -114,7 +114,7 @@ const ConfirmOrder = () => {
   return (
     <section className="confirmOrder">
       <main>
-        <h1>Confirm Order</h1>
+        <h2>Confirm Order</h2>
 
         <form onSubmit={submitHandler}>
           <div>

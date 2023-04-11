@@ -1,16 +1,19 @@
 * {
   margin: 0%;
   padding: 0%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Gumela";
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Gamela';
+  src: url("../../fonts/Gumela\ Regular.otf");
 }
 
 a {
   text-decoration: none;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Tenor+Sans&family=Ubuntu:wght@300;400;500;700&display=swap");
 
 @import "colors";
 
@@ -40,7 +43,7 @@ a {
       > h1 {
         text-transform: uppercase;
         align-items: center;
-        font: 100 3rem "Roboto";
+        font: 100 3rem "Gumela";
         margin: 0 1rem;
       }
     }

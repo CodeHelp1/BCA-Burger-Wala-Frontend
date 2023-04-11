@@ -49,7 +49,7 @@ const Shipping = () => {
   return (
     <section className="shipping">
       <main>
-        <h1>Shipping Details</h1>
+        <h2>Shipping Details</h2>
         <form onSubmit={submitHandler}>
           <div>
             <label>H.No.</label>
